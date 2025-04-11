@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="que3.css">
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <br>
+   <form action="abc.sql">
+    <h3>Contact Information</h3>
+<label for="name" class="class" >Name :</label>
+<input type="text"  required>
+<br><br>
+<label for="gender" class="class">Gender :</label>
+<br>
+<input type="radio" value="male" id="male"
+name="gender">
+<label for="male"id="male">Male</label>
+<br>
+<input type="radio" value="female" name="gender" id="female">
+<label for="female"id="female">Female</label>
+<br><br>
+<label for="address" id="address" class="class">Address:</label>
+<textarea row=10 column=15></textarea>
+<br><br>
+<label for="email" id="email" class="class">Email :</label>
+<input type="email">
+<br><br>
+<label for="pincode" id="pincode" class="class">Pincode</label>
+<input type="number">
+<hr>
+<h1>Payment details</h1>
+<br><br>
+<div class="checkbox">
+<label for="card type" id="cardtype" class="class">Card type :</label>
+<select name="card type" >
+    <option value="">-Select a card type-</option>
+    <option value="credit card">Credit card</option>
+    <option value="rupay card">Rupay card</option>
+    <option value="master card">Master card</option>
+    <option value="visa card">Visa card</option>
+</select>
+</div>
+<br><br>
+
+<label for="card number" id="card number" class="class">Card Number:</label>
+<input type="number">
+<br><br>
+<label for="exp date" id="exp date"class="class">Expire date:</label>
+<input type="date">
+<br><br>
+<label for="cvv" id="cvv"class="class">CVV :</label>
+<input type="password">
+<br><br>
+<input type="submit" id="submit" value="submit">
+<br><br>
+<input type="reset" id="reset" value="reset">
+<br><br>
+</form> 
+</body>
+</html>

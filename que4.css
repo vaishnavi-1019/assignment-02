@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    color: pink;
+    padding: 20px;
+}
+.item{
+    background-color: red;
+    padding: 20px;
+     border: 1px solid black;
+    margin: 10px;
+    
+
+}
+
+    .box
+{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color:fuchsia;
+}
